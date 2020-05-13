@@ -72,7 +72,7 @@ That's why we use Abstractions (Interfaces) in between a concrete Use Case and a
 
 Please pay attention to the __Flow of Control__ in the following image:
 
-![clean architecture and flow of control](./assets/CleanArchitecture)
+![clean architecture and flow of control](./assets/CleanArchitecture.png)
 
 Note that __Presenter__ and __Controllers__ don't know about each other, this would limit the possibility to interchange them, a Controller should be able to work just fine with a different Presenter, and viceversa.
 
