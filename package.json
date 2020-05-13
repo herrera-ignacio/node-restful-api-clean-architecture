@@ -1,0 +1,38 @@
+{
+  "name": "node_sql_restful_boilerplate",
+  "version": "1.0.0",
+  "description": "RESTful API Boilerplate",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "env-cmd --file ./config/.env node src/index.js",
+    "dev": "env-cmd --file ./config/.env nodemon src/index.js",
+    "lint": "eslint --ext .js ./src",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/herrera-ignacio/node_sql_restful_boilerplate.git"
+  },
+  "keywords": [
+    "node",
+    "restful",
+    "express",
+    "sql",
+    "crud"
+  ],
+  "author": "Ignacio Herrera",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/herrera-ignacio/node_sql_restful_boilerplate/issues"
+  },
+  "homepage": "https://github.com/herrera-ignacio/node_sql_restful_boilerplate#readme",
+  "dependencies": {
+    "env-cmd": "^10.1.0",
+    "express.js": "^1.0.0"
+  },
+  "devDependencies": {
+    "eslint": "^7.0.0",
+    "eslint-plugin-node": "^11.1.0",
+    "nodemon": "^2.0.3"
+  }
+}
